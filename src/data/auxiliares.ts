@@ -3,6 +3,7 @@ export const auxiliares = [
     codigoInterno: "A001",
     nombre: "Diego Gonzalez Morales",
     turno: "Mañana",
+    zona: "Palmira",
     moto: "Moto 1",
     candado: "C-001",
     actividades: {
@@ -18,6 +19,7 @@ export const auxiliares = [
     codigoInterno: "A002",
     nombre: "Cristhian Alberto Jimenez Ospina",
     turno: "Tarde",
+    zona: "Palmira",
     moto: "Moto 2",
     candado: "C-002",
     actividades: {
@@ -34,6 +36,7 @@ export const auxiliares = [
     nombre: "William Alberto Moya Montes",
     turno: "Mañana",
     moto: "Moto 3",
+    zona: "Tuluá",
     candado: "C-003",
     actividades: {
       Lunes: "Inventario",
@@ -48,6 +51,7 @@ export const auxiliares = [
     codigoInterno: "A004",
     nombre: "Andres Felipe Rengifo Alvarez",
     turno: "Tarde",
+    zona: "Tuluá",
     moto: "Moto 4",
     candado: "C-004",
     actividades: {
@@ -63,6 +67,7 @@ export const auxiliares = [
     codigoInterno: "A005",
     nombre: "Natalia Collazos Muñoz",
     turno: "Mañana",
+    zona: "Tuluá",
     moto: "Moto 5",
     candado: "C-005",
     actividades: {
@@ -79,6 +84,7 @@ export const auxiliares = [
     nombre: "Cristian Herney Vitola Lopez",
     turno: "Tarde",
     moto: "Moto 6",
+    zona: "Calima",
     candado: "C-006",
     actividades: {
       Lunes: "Censo Zona 4",

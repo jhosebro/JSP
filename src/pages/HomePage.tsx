@@ -1,5 +1,6 @@
 import { Container, Typography } from "@mui/material";
 import InfoCard from "../components/InfoCard";
+import { auxiliares } from "../data/auxiliares";
 
 
 const HomePage = () => {
@@ -8,7 +9,17 @@ const HomePage = () => {
       <Typography variant="h3" fontWeight="bold">
         Gestion de turnos de auxiliares
       </Typography>
-      <InfoCard></InfoCard>
+      <InfoCard
+        data={auxiliares.map(aux => ({
+          code: aux.codigoInterno,
+          name: aux.nombre,
+          shift: aux.turno,
+          zone: aux.zona || "No asignada",
+          moto: aux.moto,
+          lock: aux.candado,
+          activities: aux.actividades
+        }))}
+      ></InfoCard>
     </Container>
   );
 };
