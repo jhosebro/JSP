@@ -6,7 +6,7 @@ import { auxiliares } from "../data/auxiliares";
 const HomePage = () => {
   return (
     <Container>
-      <Typography variant="h3" fontWeight="bold">
+      <Typography variant="h3" fontWeight="bold" align="center" gutterBottom>
         Gestion de turnos de auxiliares
       </Typography>
       <InfoCard
